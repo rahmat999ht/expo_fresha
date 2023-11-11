@@ -1,12 +1,10 @@
-import { StatusBar } from 'expo-status-bar';
-import { Platform, StyleSheet,Text, View  } from 'react-native';
+import { StyleSheet,  Text, View} from 'react-native';
 
-export default function ModalScreen() {
+
+export default function ProfilView() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Modal</Text>
-      <View style={styles.separator} />
-      <StatusBar style={Platform.OS === 'ios' ? 'light' : 'auto'} />
+      <Text style={styles.title}>Tab One</Text>
     </View>
   );
 }
